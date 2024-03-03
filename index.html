@@ -7,19 +7,20 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-black">
-    <nav class="bg-gray-800 shadow-lg">
-        <div class="container mx-auto px-6 py-3">
-            <div class="flex items-center justify-between">
+<body class="bg-gray-800 font-serif">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 shadow-lg text-white ">
+        <div class="container mx-auto px-6 py-3 ">
+            <div class="flex flex-col md:flex-row items-center justify-between">
                 <div class="text-white">
-                    <a class="text-xl font-bold hover:text-neutral-300" href="#"><img src="calisthenics-center-logo.jpg"
-                            alt=""></a>
+                    <a class="text-xl font-bold hover:text-neutral-300" href="index.html"><img
+                            src="img/calisthenics-center-logo.jpg" alt=""></a>
                 </div>
-                <div class="flex space-x-4">
-                    <a class="py-2 px-4 text-neutral-300 hover:text-white" href="#">Gym benefits</a>
-                    <a class="py-2 px-4 text-neutral-300 hover:text-white" href="#">Membership</a>
-                    <a class="py-2 px-4 text-neutral-300 hover:text-white" href="#">About</a>
-                    <a class="py-2 px-4 text-neutral-300 hover:text-white" href="#">Contact</a>
+                <div class="flex flex-col space-x-4 md:flex-row">
+                    <a class="py-2 px-4 text-neutral-300 hover:text-white" href="gymeberchip.html">Gym benefits</a>
+                    <a class="py-2 px-4 text-neutral-300 hover:text-white" href="member.html">Membership</a>
+                    <a class="py-2 px-4 text-neutral-300 hover:text-white" href="aboutus.html">About</a>
+                    <a class="py-2 px-4 text-neutral-300 hover:text-white" href="contact.html">Contact</a>
                     <button class="py-2 px-4 bg-red-500 rounded-full text-neutral-300 hover:text-white">7 days fon
                         free</button>
                 </div>
@@ -27,34 +28,41 @@
         </div>
     </nav>
 
-    <header class="h-screen bg-local bg-no-repeat bg-center bg-cover" style="background-image: url(pe.jpg);">
+    <header class="h-screen bg-local bg-no-repeat bg-center bg-cover" style="background-image: url(img/pe.jpg);">
 
 
-        <h1>Crush your health and fitness goals in no time</h1>
+        <h1 class="text-end font-bold capitalize text-2xl md:text-6xl text-white pt-16 pr-12">Crush your health <p>and</p> fitness
+            goals in no time</h1>
 
-        <h4>It doesn’t matter if your goal is to get stronger, burn fat, or to just stay fit our world class coaches
+        <h4 class="text-center font-bold capitalize text-2xl md:text-2xl text-white pt-16 pr-12">It doesn’t matter if your goal is
+            to
+            get stronger, burn fat, or to just stay fit our world class coaches
             will guide you every step of the way.</h4>
 
 
-
-        <button class="bg-red-500 text-gray-300 hover:text-neutral-300">7 days fon free</button>
+        <div class="container flex justify-center mt-16 h-14">
+            <button class="bg-red-500 text-black-800 font-bold hover:text-neutral-300 rounded-full w-32">7 days for
+                free</button>
+        </div>
     </header>
     <section>
-        <h1>We offer something for everybody</h1>
+        <div class="bg-gray-900 py-20">
+            <div class="container text-neutral-300 mx-auto flex flex-col justify-center items-center">
+                <h2 class="text-2xl md:text-4xl font-semibold mb-8">Nuestro Gimnasio</h2>
+                <p class="text-lg text-center mb-8">En nuestro gimnasio, te ayudamos a alcanzar tus objetivos de salud y
+                    estado físico.</p>
+                <p class="text-lg text-center ">Con entrenadores certificados y un ambiente acogedor,</p>
+                <p>¡estarás en el
+                    camino hacia
+                    una vida más saludable en poco tiempo!</p>
+                <div class="w-full md:w-3/4 lg:w-1/2">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <hr class=" border-gray-800">
     <!-- Sección de Precios -->
     <section class="bg-gray-900 text-neutral-300 py-20">
         <div class="container mx-auto">
@@ -106,25 +114,41 @@
             </div>
         </div>
     </section>
+    <hr class=" border-gray-800">
+    <!-- seccion sobre nostros -->
 
+    <section class="bg-gray-900 py-20">
 
-    <section>
-        <button>About Crosfit gym</button>
-        <h2>Hi! We’re a local CrossFit gym in EL Salvador, San Sanlvador .</h2>
+        <div class="container flex justify-center h-14">
+            <button class="bg-red-500 text-black-800 font-bold hover:text-neutral-300 rounded-full w-32">About Crosfit
+                gym</button>
+        </div>
+        <div class="container mx-auto py-20 flex flex-col md:flex-row md:items-center md:justify-center">
+            <div class="md:w-1/2 md:order-2 flex justify-center md:justify-end mb-6 md:mb-0">
+                <img src="img/pexels-leon-ardho-1552242.jpg" alt="imagen"
+                    class="w-full md:w-3/4 xl:w-1/2 rounded-lg shadow-lg">
+            </div>
+            <div class=" px-4 text-center md:text-left text-neutral-300 ">
+                <h2 class="text-4xl font-semibold mb-8">
+                    ¡Hola! Somos un gimnasio local de CrossFit en El Salvador, San Salvador.
+                </h2>
+                <p class="text-lg mb-8">El gimnasio de CrossFit fue fundado por Alex y Sparky en 2012. Nuestra misión es
+                    ayudar a las personas en San Salvador a ponerse en forma, mantenerse saludables y vivir la vida a su
+                    manera sin que el fitness sea un obstáculo.</p>
+            </div>
+        </div>
+    </section>
+    <hr class=" border-gray-800">
+    <!-- seccion form contacto -->
 
-        <h3>rossFit Gym was started by Alex and Sparky in 2012. It’s our mission to help people in Denver get fit, stay
-            healthy, and live life on their terms without fitness being an obstacle.</h3>
-        <div class="bg-gray-200">
-            <div class="container mx-auto mt-10 flex justify-center items-center">
-                <form action="#" method="POST" class="max-w-xl w-full md:w-1/2">
+    <section class="bg-gray-900 py-20">
+        <div class="container mx-auto py-20 flex flex-col md:flex-row md:items-center md:justify-center">
+            <div class="md:w-1/2 md:order-1 px-4 text-center md:text-left">
+                <h2 class="text-2xl md:text-4xl text-center text-neutral-300 font-semibold mb-8">Formulario</h2>
+                <form action="#" method="POST">
                     <div class="mb-4">
                         <label for="nombre" class="block text-gray-700 font-bold mb-2">Nombre:</label>
                         <input type="text" name="nombre" id="nombre" placeholder="Nombre" required
-                            class="w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white">
-                    </div>
-                    <div class="mb-4">
-                        <label for="apellidos" class="block text-gray-700 font-bold mb-2">Apellidos:</label>
-                        <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos" required
                             class="w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white">
                     </div>
                     <div class="mb-4">
@@ -133,53 +157,32 @@
                             class="w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white">
                     </div>
                     <div class="mb-4">
-                        <label for="telefono" class="block text-gray-700 font-bold mb-2">Teléfono:</label>
-                        <input type="tel" name="telefono" id="telefono" placeholder="Teléfono" required
-                            class="w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white">
-                    </div>
-                    <div class="mb-4">
-                        <label for="membresia" class="block text-gray-700 font-bold mb-2">Duración de la
-                            Membresía:</label>
-                        <select name="membresia" id="membresia" required
-                            class="w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white">
-                            <option value="" disabled selected>Seleccione la duración</option>
-                            <option value="1">1 mes</option>
-                            <option value="3">3 meses</option>
-                            <option value="6">6 meses</option>
-                            <option value="12">12 meses</option>
-                        </select>
+                        <label for="mensaje" class="block text-gray-700 font-bold mb-2">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje aquí" required
+                            class="w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white h-32 resize-none"></textarea>
                     </div>
                     <div class="mt-6">
                         <button type="submit"
-                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Enviar
-                            Formulario</button>
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded">Enviar
+                            Mensaje</button>
                     </div>
                 </form>
-                <img src="pe.jpg" alt="imagen" class="w-1/2 md:w-1/4" />
+            </div>
+            <div class="md:w-1/2 md:order-2 flex justify-center md:justify-end">
+                <img src="img/calisthenics-center-logo.jpg" alt="imagen"
+                    class="w-full md:w-3/4 xl:w-1/2 rounded-lg shadow-lg">
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-    <hr>
-
+    <hr class=" border-gray-800">
+    <!-- footer -->
     <footer class="bg-neutral-950 text-neutral-300 ">
         <div class="flex items-center flex-col">
-            <a class="m-5" href=""><img src="calisthenics-center-logo.jpg" alt=""></a>
+            <a class="m-5" href=""><img src="img/calisthenics-center-logo.jpg" alt=""></a>
 
             <h1 class="mb-5 ">Navigation</h1>
             <div class="mb-5 space-x-5">
-                <a href="http://">Home</a>
+                <a href="index.html">Home</a>
                 <a href="http://">CrossFit Classes</a>
                 <a href="http://">Strength Training</a>
             </div>
@@ -187,7 +190,7 @@
                 <a href="">Personal Training</a>
                 <a href="">Member Events</a>
                 <a href="">About</a>
-                <a href="">Contact</a>
+                <a href="contact.html">Contact</a>
             </div>
 
 

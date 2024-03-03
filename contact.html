@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-800 font-serif">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 shadow-lg text-white ">
+        <div class="container mx-auto px-6 py-3 ">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="text-white">
+                    <a class="text-xl font-bold hover:text-neutral-300" href="index.html"><img
+                            src="img/calisthenics-center-logo.jpg" alt=""></a>
+                </div>
+                <div class="flex flex-col space-x-4 md:flex-row">
+                    <a class="py-2 px-4 text-neutral-300 hover:text-white" href="gymeberchip.html">Gym benefits</a>
+                    <a class="py-2 px-4 text-neutral-300 hover:text-white" href="member.html">Membership</a>
+                    <a class="py-2 px-4 text-neutral-300 hover:text-white" href="aboutus.html">About</a>
+                    <a class="py-2 px-4 text-neutral-300 hover:text-white" href="contact.html">Contact</a>
+                    <button class="py-2 px-4 bg-red-500 rounded-full text-neutral-300 hover:text-white">7 days fon
+                        free</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Form -->
+    <section class="container bg-gray-900  mx-auto px-4 py-8">
+        <h1 class="text-3xl text-white font-bold text-center">Contact Us</h1>
+        <div class="max-w-md mx-auto mt-4 bg-gray-900 rounded-lg overflow-hidden md:max-w-lg">
+            <form action="#" class="flex flex-col " method="POST">
+                <div class="mb-4">
+                    <label for="nombre" class="block text-gray-700 font-bold mb-2">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required
+                        class="w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 font-bold mb-2">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required
+                        class="w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white">
+                </div>
+                <div class="mb-4">
+                    <label for="mensaje" class="block text-gray-700 font-bold mb-2">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje aquí" required
+                        class="w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white h-32 resize-none"></textarea>
+                </div>
+                <div class="container flex justify-center mt-6">
+                    <button type="submit"
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded">Enviar
+                        Mensaje</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-neutral-950 text-white ">
+        <div class="flex items-center flex-col">
+            <a class="m-5" href=""><img src="img/calisthenics-center-logo.jpg" alt=""></a>
+
+            <h1 class="mb-5 ">Navigation</h1>
+            <div class="mb-5 space-x-5">
+                <a href="index.html">Home</a>
+                <a href="http://">CrossFit Classes</a>
+                <a href="http://">Strength Training</a>
+            </div>
+            <div class="mb-5 space-x-5">
+                <a href="">Personal Training</a>
+                <a href="">Member Events</a>
+                <a href="">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+
+            <h5 class="pb-5">copyright 2023 Benjamin</h5>
+        </div>
+    </footer>
+</body>
+
+</html>
